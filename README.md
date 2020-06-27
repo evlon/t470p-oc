@@ -97,15 +97,21 @@ https://github.com/zxystd/IntelBluetoothFirmware
 
 
 ## 说明
-分支 usbinjectall 用于定制自己的USB， 省电
+分支 usbinjectall 用于定制自己的USB， ,
 分支 master 我定制后的使用版本
 
 
 ## 困难
-想使用OpenCore，但是总是不成功， 希望给我一个基础的。
+~~想使用OpenCore，但是总是不成功， 希望给我一个基础的。~~
+
 
 ## 更新
 更新最新版驱动
 更新驱动后，去掉 EFI/CLOVER/ACPI/patched/SSDT-Keyboard.aml  小红帽移动太慢的问题解决
 
 迁移到 opencore 0.5.9
+使用Hackintosh.app定制USB（修改内部的USB的 Connector 为Internal），分别放置dsl\aml\texts 文件到指定的目录，病修改config.plist 加载。
+
+增加0d6d补丁，修复睡眠秒醒的问题。 
+
+
