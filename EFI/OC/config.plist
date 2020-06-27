@@ -68,7 +68,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-XOSI.aml</string>
 			</dict>
@@ -87,6 +87,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-HPET_RTC_TIMR-fix.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-OC-XOSI.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
@@ -1417,19 +1425,19 @@
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
-			<true/>
+			<false/>
 			<key>MLB</key>
-			<string>C02821104GUJ1JHFB</string>
+			<string>C02841404CDHWVPCB</string>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacBookPro14,3</string>
+			<string>MacBookPro14,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02WR0FRHTD5</string>
+			<string>C02XJ0NNHV29</string>
 			<key>SystemUUID</key>
-			<string>698C3968-24E8-40B0-8E92-00E3F34F5EFF</string>
+			<string>09915EA2-5B49-41DC-A2C9-86301D6CE818</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
