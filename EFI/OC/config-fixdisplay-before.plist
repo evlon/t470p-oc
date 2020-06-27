@@ -124,7 +124,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>change _DSM to XDSM</string>
+				<string>5844534D</string>
 				<key>Count</key>
 				<integer>1</integer>
 				<key>Enabled</key>
@@ -440,7 +440,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>X1ExNA==</data>
 				<key>Limit</key>
@@ -466,7 +466,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>X1ExNQ==</data>
 				<key>Limit</key>
@@ -566,8 +566,6 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
-				<key>device-id</key>
-				<data>cJ0AAA==</data>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>hda-gfx</key>
@@ -580,22 +578,7 @@
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAWGQ==</data>
-				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<data>AQAAAA==</data>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1F,0x6)</key>
-			<dict>
-				<key>built-in</key>
-				<data>AQ==</data>
+				<data>WRsAAA==</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
