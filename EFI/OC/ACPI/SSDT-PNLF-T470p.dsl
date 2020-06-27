@@ -1,15 +1,26 @@
-// Adding PNLF device for IntelBacklight.kext
-
-DefinitionBlock ("", "SSDT", 2, "T460", "PNLF", 0)
+//
+DefinitionBlock("", "SSDT", 2, "OCLT", "PNLF", 0)
 {
-    // For backlight control
-    Device(_SB.PNLF)
+    Scope(_SB)
     {
-        Name(_ADR, Zero)
-        Name(_HID, EisaId ("APP0002"))
-        Name(_CID, "backlight")
-        Name(_UID, 16)
-        Name(_STA, 0x0B)
+        Device(PNLF)
+        {
+            Name(_ADR, Zero)
+            Name(_HID, EisaId ("APP0002"))
+            Name(_CID, "backlight")
+            Name(_UID, 16)
+            Method (_STA, 0, NotSerialized)
+            {
+                If (_OSI ("Darwin"))
+                {
+                    Return (0x0B)
+                }
+                Else
+                {
+                    Return (Zero)
+                }
+            }
+        }        
     }
 }
 //EOF
