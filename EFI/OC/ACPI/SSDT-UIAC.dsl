@@ -21,7 +21,7 @@ DefinitionBlock ("", "SSDT", 2, "ACDT", "_UIAC", 0)
                       "HS02", Package()
                       {
                           "name", Buffer() { "HS02" },
-                          "UsbConnector", 3,
+                          "UsbConnector", 0,
                           "port", Buffer() { 0x02, 0x00, 0x00, 0x00 },
                       },
                       "HS04", Package()
