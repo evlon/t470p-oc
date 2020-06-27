@@ -100,6 +100,11 @@ https://github.com/zxystd/IntelBluetoothFirmware
 分支 usbinjectall 用于定制自己的USB， ,
 分支 master 我定制后的使用版本
 
+ * 请一定要修改为自己的三码后使用。 
+ ![图1](doc/images/QQ20200627-215254.png)
+ ![图2](doc/images/QQ20200627-215349.png)
+ ![图3](doc/images/QQ20200627-215500.png)
+ ![图4](doc/images/QQ20200627-215604.png)
 
 ## 困难
 ~~想使用OpenCore，但是总是不成功， 希望给我一个基础的。~~
