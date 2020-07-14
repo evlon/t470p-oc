@@ -119,4 +119,7 @@ https://github.com/zxystd/IntelBluetoothFirmware
 
 增加0d6d补丁，修复睡眠秒醒的问题。 
 
+ 增加CPUFriend.kext， CPU温度降下来了
+  ![图4](doc/images/cpufriend.png)
+
 

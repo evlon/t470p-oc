@@ -686,6 +686,8 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,31,3</string>
+				<key>RM,device-id</key>
+				<data>cZ0AAA==</data>
 				<key>device-id</key>
 				<data>caEAAA==</data>
 				<key>device_type</key>
@@ -696,21 +698,11 @@
 				<data>LwAAAA==</data>
 				<key>model</key>
 				<string>CM238 HD Audio Controller</string>
-				<key>RM,device-id</key>
-				<data>cZ0AAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>AAAbWQ==</data>
-				<key>framebuffer-fbmem</key>
-				<data>AACQAA==</data>
-				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-stolenmem</key>
-				<data>AAAwAQ==</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>AAAAgA==</data>
 				<key>device-id</key>
 				<data>G1kAAA==</data>
 				<key>disable-external-gpu</key>
@@ -723,6 +715,14 @@
 				<data>AgQKAAAIAACHAQAA</data>
 				<key>framebuffer-con2-enable</key>
 				<integer>1</integer>
+				<key>framebuffer-fbmem</key>
+				<data>AACQAA==</data>
+				<key>framebuffer-patch-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-stolenmem</key>
+				<data>AAAwAQ==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
 				<key>hda-gfx</key>
 				<string>onboard-1</string>
 			</dict>
@@ -828,6 +828,22 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/FakePCIID</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>CPUFriend.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/CPUFriend</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
